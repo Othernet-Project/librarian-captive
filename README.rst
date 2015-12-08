@@ -10,7 +10,7 @@ Installation
 
 The component has the following dependencies:
 
-- librarian_core_
+- librarian-core_
 
 To enable this component, add it to the list of components in librarian_'s
 `config.ini` file, e.g.::
@@ -33,3 +33,5 @@ Configuration
             captive.apple.com:apple;200
             www.msftncsi.com:;302
             go.microsoft.com:;302
+
+.. _librarian-core: https://github.com/Outernet-Project/librarian-core
