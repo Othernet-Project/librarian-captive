@@ -33,21 +33,3 @@ Configuration
             captive.apple.com:apple;200
             www.msftncsi.com:;302
             go.microsoft.com:;302
-
-Development
------------
-
-In order to recompile static assets, make sure that compass_ and coffeescript_
-are installed on your system. To perform a one-time recompilation, execute::
-
-    make recompile
-
-To enable the filesystem watcher and perform automatic recompilation on changes,
-use::
-
-    make watch
-
-.. _librarian: https://github.com/Outernet-Project/librarian
-.. _librarian_core: https://github.com/Outernet-Project/librarian-core
-.. _compass: http://compass-style.org/
-.. _coffeescript: http://coffeescript.org/
